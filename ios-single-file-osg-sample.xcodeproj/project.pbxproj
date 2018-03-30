@@ -14,6 +14,7 @@
 		2F9D4C73206CE7EE00A46610 /* library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D4C70206CE7ED00A46610 /* library.cpp */; };
 		2F9D4C74206CE7EE00A46610 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9D4C71206CE7ED00A46610 /* ViewController.xib */; };
 		2F9D4C75206CE7EE00A46610 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D4C72206CE7ED00A46610 /* ViewController.mm */; };
+		2FE6CEE5206E3770008AAFE6 /* OpenSceneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CEE4206E376F008AAFE6 /* OpenSceneGraph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2F9D4C70206CE7ED00A46610 /* library.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = library.cpp; sourceTree = "<group>"; };
 		2F9D4C71206CE7ED00A46610 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		2F9D4C72206CE7ED00A46610 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		2FE6CEE3206E376F008AAFE6 /* OpenSceneGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSceneGraph.h; sourceTree = "<group>"; };
+		2FE6CEE4206E376F008AAFE6 /* OpenSceneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSceneGraph.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				2F9D4C71206CE7ED00A46610 /* ViewController.xib */,
 				2F9D4C70206CE7ED00A46610 /* library.cpp */,
 				2F9D4C6F206CE7ED00A46610 /* library.h */,
+				2FE6CEE4206E376F008AAFE6 /* OpenSceneGraph.cpp */,
+				2FE6CEE3206E376F008AAFE6 /* OpenSceneGraph.h */,
 				2F9D4C62206CE72800A46610 /* Assets.xcassets */,
 				2F9D4C64206CE72800A46610 /* LaunchScreen.storyboard */,
 				2F9D4C67206CE72800A46610 /* Info.plist */,
@@ -150,6 +155,7 @@
 				2F9D4C75206CE7EE00A46610 /* ViewController.mm in Sources */,
 				2F9D4C69206CE72800A46610 /* main.m in Sources */,
 				2F9D4C73206CE7EE00A46610 /* library.cpp in Sources */,
+				2FE6CEE5206E3770008AAFE6 /* OpenSceneGraph.cpp in Sources */,
 				2F9D4C5B206CE72800A46610 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

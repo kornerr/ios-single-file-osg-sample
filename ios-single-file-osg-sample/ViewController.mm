@@ -36,7 +36,18 @@
     [self.displayLink
         addToRunLoop:[NSRunLoop currentRunLoop]
         forMode:NSDefaultRunLoopMode];
-    // No real embedding happens.
+    // TODO
+    // Embed OpenSceneGraph render view.
+    /*
+    self.renderView =
+        library::init(
+            self.parentView.frame.size.width,
+            self.parentView.frame.size.height,
+            [UIScreen mainScreen].scale,
+            self.parentView
+        );
+    [self.view sendSubviewToBack:self.renderView];
+    */
 }
 
 - (void)step
